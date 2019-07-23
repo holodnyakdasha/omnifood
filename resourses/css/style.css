@@ -118,12 +118,30 @@ h3 {
     color: #e67e22;
     font-size: 120%;
     line-height: 120%;
+    margin-right: 10px;
     vertical-align: middle;
     margin-top: -2px;
 }
 
 
 /* ------------------------- */
+
+
+/*links*/
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #e67e22;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 0px solid transparent;
+}
 
 
 /*Buttons*/
@@ -179,6 +197,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -305,6 +324,11 @@ header {
     margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
 .btn-app img {
     height: 50px;
     width: auto;
@@ -326,4 +350,44 @@ header {
 
 .city-feature {
     margin-bottom: 5px;
+}
+
+
+/*testimonials*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
