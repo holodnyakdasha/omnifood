@@ -470,6 +470,7 @@ textarea {
 
 textarea {
     height: 100px;
+    resize: none;
 }
 
 input[type=checkbox] {
