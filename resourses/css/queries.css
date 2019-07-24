@@ -23,6 +23,13 @@
     blockquote cite {
         float: right;
     }
+    .section-features .row .box,
+    .section-features .long-copy {
+        text-align: center
+    }
+    .section-features ion-icon {
+        margin: 0 auto;
+    }
 }
 
 
