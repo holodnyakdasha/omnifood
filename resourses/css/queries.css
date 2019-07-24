@@ -17,6 +17,12 @@
     textarea {
         margin: 5px 0;
     }
+    .section-meals {
+        display: none;
+    }
+    blockquote cite {
+        float: right;
+    }
 }
 
 
